@@ -13,3 +13,19 @@ body {
   background-color: #3f3f3f;
 }
 
+#container {
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+input {
+   padding: 5px 20px;
+   height: 50px;
+   font-size: 30px;
+   border-radius: 10px;
+   outline: none;
+   border: none;
+}
